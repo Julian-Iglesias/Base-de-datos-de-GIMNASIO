@@ -57,3 +57,9 @@ select fn_cantidadAsistenciasCliente(2) as AsistenciasMaria;
 call sp_registrarRutinaPesas('Rutina fuerza nivel 3', 1, 2);
 call sp_registrarPago('2026-04-05', 6, 1);
 
+
+/* prueba de TRIGGER */
+insert into pago (fecha, id_cliente, id_membresia)
+values ("2026-04-06", 1, 1);
+select * from asistencia;
+

@@ -1,0 +1,4 @@
+﻿id_suscripcion;id_cliente;id_membresia;fecha_inicio;fecha_fin;estado
+1;1;1;2024-04-01;2024-07-01;activa
+2;2;2;2024-04-10;2024-07-10;activa
+3;3;3;2024-04-15;2024-07-15;inactiva
